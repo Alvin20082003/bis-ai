@@ -1,58 +1,59 @@
-﻿<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f172a"/>
-      <stop offset="100%" style="stop-color:#020617"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
     </linearGradient>
-    <linearGradient id="title" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#60a5fa"/>
-      <stop offset="50%" style="stop-color:#a78bfa"/>
-      <stop offset="100%" style="stop-color:#67e8f9"/>
+    <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="200" fill="url(#bg)" rx="16"/>
+  <rect width="900" height="180" fill="url(#bg)" rx="14"/>
 
-  <!-- Ambient orbs -->
-  <circle cx="100" cy="60" r="80" fill="#3b82f6" opacity="0.06"/>
-  <circle cx="800" cy="140" r="100" fill="#8b5cf6" opacity="0.06"/>
-  <circle cx="450" cy="100" r="60" fill="#06b6d4" opacity="0.04"/>
+  <!-- Ambient glow -->
+  <circle cx="120" cy="60" r="90" fill="#3b82f6" opacity="0.05"/>
+  <circle cx="780" cy="120" r="110" fill="#8b5cf6" opacity="0.05"/>
 
   <!-- Logo box -->
-  <rect x="40" y="70" width="52" height="52" rx="14" fill="url(#title)" opacity="0.9"/>
-  <text x="66" y="103" font-family="monospace" font-size="22" font-weight="900" fill="white" text-anchor="middle">IS</text>
+  <rect x="40" y="55" width="56" height="56" rx="14" fill="url(#grad1)"/>
+  <text x="68" y="91" font-family="Arial Black, Arial, sans-serif" font-size="20" font-weight="900" fill="white" text-anchor="middle">IS</text>
 
-  <!-- Main title -->
-  <text x="112" y="95" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="white">BIS AI</text>
-  <text x="112" y="125" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="url(#title)">Compliance Engine</text>
-  <text x="112" y="148" font-family="Arial, sans-serif" font-size="12" fill="#64748b">From product idea â†’ BIS standards in under 3 seconds</text>
+  <!-- Title -->
+  <text x="114" y="84" font-family="Arial Black, Arial, sans-serif" font-size="30" font-weight="900" fill="white">BIS AI</text>
+  <text x="114" y="108" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="url(#title)">Compliance Engine</text>
+  <text x="114" y="128" font-family="Arial, sans-serif" font-size="11" fill="#64748b">From product idea to BIS standards in under 3 seconds</text>
 
-  <!-- Right side badges -->
-  <rect x="560" y="55" width="130" height="28" rx="14" fill="#3b82f620" stroke="#3b82f640" stroke-width="1"/>
-  <text x="625" y="74" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#60a5fa" text-anchor="middle">âš¡ BIS AI</text>
+  <!-- Badge 1 -->
+  <rect x="560" y="42" width="130" height="26" rx="13" fill="#3b82f620" stroke="#3b82f650" stroke-width="1"/>
+  <text x="625" y="59" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#60a5fa" text-anchor="middle">BIS AI Active</text>
 
-  <rect x="700" y="55" width="150" height="28" rx="14" fill="#22c55e20" stroke="#22c55e40" stroke-width="1"/>
-  <text x="775" y="74" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#4ade80" text-anchor="middle">âœ“ Hit Rate 87%</text>
+  <!-- Badge 2 -->
+  <rect x="700" y="42" width="150" height="26" rx="13" fill="#22c55e20" stroke="#22c55e50" stroke-width="1"/>
+  <text x="775" y="59" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#4ade80" text-anchor="middle">Hit Rate 87%</text>
 
-  <rect x="560" y="93" width="130" height="28" rx="14" fill="#8b5cf620" stroke="#8b5cf640" stroke-width="1"/>
-  <text x="625" y="112" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#a78bfa" text-anchor="middle">ðŸ¤– Gemini 2.5</text>
+  <!-- Badge 3 -->
+  <rect x="560" y="76" width="130" height="26" rx="13" fill="#8b5cf620" stroke="#8b5cf650" stroke-width="1"/>
+  <text x="625" y="93" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#a78bfa" text-anchor="middle">Gemini 2.5 Flash</text>
 
-  <rect x="700" y="93" width="150" height="28" rx="14" fill="#f59e0b20" stroke="#f59e0b40" stroke-width="1"/>
-  <text x="775" y="112" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle">â± 1.9s Latency</text>
+  <!-- Badge 4 -->
+  <rect x="700" y="76" width="150" height="26" rx="13" fill="#f59e0b20" stroke="#f59e0b50" stroke-width="1"/>
+  <text x="775" y="93" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle">1.9s Latency</text>
 
-  <rect x="560" y="131" width="130" height="28" rx="14" fill="#06b6d420" stroke="#06b6d440" stroke-width="1"/>
-  <text x="625" y="150" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#22d3ee" text-anchor="middle">ðŸ” FAISS + BM25</text>
+  <!-- Badge 5 -->
+  <rect x="560" y="110" width="130" height="26" rx="13" fill="#06b6d420" stroke="#06b6d450" stroke-width="1"/>
+  <text x="625" y="127" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#22d3ee" text-anchor="middle">FAISS + BM25</text>
 
-  <rect x="700" y="131" width="150" height="28" rx="14" fill="#ef444420" stroke="#ef444440" stroke-width="1"/>
-  <text x="775" y="150" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#f87171" text-anchor="middle">ðŸ† Hackathon 2026</text>
+  <!-- Badge 6 -->
+  <rect x="700" y="110" width="150" height="26" rx="13" fill="#ef444420" stroke="#ef444450" stroke-width="1"/>
+  <text x="775" y="127" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#f87171" text-anchor="middle">Hackathon 2026</text>
 
-  <!-- Bottom line -->
-  <text x="450" y="185" font-family="Arial, sans-serif" font-size="11" fill="#334155" text-anchor="middle">Built by Team Tech_Bridgers Â· BIS Ã— Sigma Squad AI Hackathon 2026</text>
+  <!-- Footer -->
+  <text x="450" y="163" font-family="Arial, sans-serif" font-size="10" fill="#334155" text-anchor="middle">Built by Team Tech_Bridgers  |  BIS x Sigma Squad AI Hackathon 2026</text>
 </svg>
-
-
