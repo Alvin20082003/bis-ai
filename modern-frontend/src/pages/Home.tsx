@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+﻿import React, { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Zap, ArrowRight, Sparkles, ChevronRight, Sliders, ChevronDown } from 'lucide-react';
 import toast from 'react-hot-toast';
@@ -66,7 +66,7 @@ export default function Home() {
         setData(result);
         addHistory({ id: crypto.randomUUID(), query: q, timestamp: Date.now(), results: result.results, latency_ms: result.latency_ms, total_results: result.total_results });
         updateAnalytics(result.latency_ms);
-        toast.success(`Found ${result.total_results} standards · Risk: ${result.risk_summary.level}`);
+        toast.success(`Found ${result.total_results} standards Â· Risk: ${result.risk_summary.level}`);
       } else {
         const result = await analyze(q, 5, true);
         setData(result);
@@ -89,7 +89,7 @@ export default function Home() {
   return (
     <div className="flex h-full overflow-hidden">
 
-      {/* ── Main scrollable area — takes all remaining space ── */}
+      {/* â”€â”€ Main scrollable area â€” takes all remaining space â”€â”€ */}
       <div className="flex-1 overflow-y-auto min-w-0">
         <div className="px-6 py-5 max-w-5xl">  {/* wider cap, left-aligned */}
 
@@ -102,7 +102,7 @@ export default function Home() {
           >
             <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold">
               <Zap className="w-3 h-3 fill-current" />
-              Antigravity AI Active
+              BIS AI Active
             </div>
             <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-green-500/10 border border-green-500/20 text-green-400 text-xs font-bold">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
@@ -153,7 +153,7 @@ export default function Home() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 onKeyDown={handleKey}
-                placeholder="e.g., High-strength cement for marine construction…"
+                placeholder="e.g., High-strength cement for marine constructionâ€¦"
                 rows={2}
                 className="flex-1 bg-transparent text-white placeholder-slate-600 text-sm resize-none focus:outline-none leading-relaxed"
               />
@@ -167,7 +167,7 @@ export default function Home() {
                 ) : (
                   <Sparkles className="w-4 h-4" />
                 )}
-                {isLoading ? 'Analyzing…' : 'Analyze with AI'}
+                {isLoading ? 'Analyzingâ€¦' : 'Analyze with AI'}
               </button>
             </div>
           </div>
@@ -200,7 +200,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* What-If controls — shown when advanced mode is on */}
+          {/* What-If controls â€” shown when advanced mode is on */}
           <AnimatePresence>
             {advancedMode && (
               <motion.div
@@ -238,7 +238,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="text-center">
-                <p className="text-white font-semibold">Analyzing with Antigravity AI…</p>
+                <p className="text-white font-semibold">Analyzing with BIS AIâ€¦</p>
                 <p className="text-slate-500 text-sm mt-1">Searching FAISS index + BM25 scoring</p>
               </div>
             </motion.div>
@@ -269,7 +269,7 @@ export default function Home() {
                 >
                   <div className="flex items-center gap-2 mb-2">
                     <Zap className="w-3.5 h-3.5 text-purple-400" />
-                    <span className="text-xs font-bold text-purple-400">Antigravity Expansion Active</span>
+                    <span className="text-xs font-bold text-purple-400">BIS AI Expansion Active</span>
                   </div>
                   <div className="flex flex-wrap gap-1.5">
                     {data.matched_terms.map((t) => (
@@ -281,7 +281,7 @@ export default function Home() {
                 </motion.div>
               )}
 
-              {/* Cards — 2 cols max so they don't get too narrow */}
+              {/* Cards â€” 2 cols max so they don't get too narrow */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                 {data.results.map((r, i) => (
                   <StandardCard key={r.standard_no} result={r} index={i} query={data.query} />
@@ -294,14 +294,14 @@ export default function Home() {
                 </button>
               </div>
 
-              {/* ── Advanced Analysis Panels ── */}
+              {/* â”€â”€ Advanced Analysis Panels â”€â”€ */}
               {advData && (
                 <motion.div
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   className="mt-6 space-y-4"
                 >
-                  {/* Report download — always first */}
+                  {/* Report download â€” always first */}
                   <ReportGenerator data={advData} />
 
                   {/* Gap Analysis */}
@@ -323,9 +323,9 @@ export default function Home() {
             className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4"
           >
             {[
-              { icon: '🏭', title: 'Cement Standards', desc: 'OPC, PPC, PSC and all cement types', count: '8 standards' },
-              { icon: '🔩', title: 'Steel Standards',  desc: 'TMT bars, structural sections',      count: '7 standards' },
-              { icon: '🏗️', title: 'Concrete Codes',   desc: 'Mix design, RCC, prestressed',       count: '8 standards' },
+              { icon: 'ðŸ­', title: 'Cement Standards', desc: 'OPC, PPC, PSC and all cement types', count: '8 standards' },
+              { icon: 'ðŸ”©', title: 'Steel Standards',  desc: 'TMT bars, structural sections',      count: '7 standards' },
+              { icon: 'ðŸ—ï¸', title: 'Concrete Codes',   desc: 'Mix design, RCC, prestressed',       count: '8 standards' },
             ].map((c) => (
               <div key={c.title} className="p-4 rounded-2xl bg-[#0d1424] border border-white/5 hover:border-white/10 transition-all cursor-pointer group">
                 <div className="text-2xl mb-2">{c.icon}</div>
@@ -339,7 +339,7 @@ export default function Home() {
 
         {/* Footer */}
         <div className="mt-10 flex flex-wrap items-center gap-6 text-xs text-slate-600 border-t border-white/5 pt-6">
-          {['🔒 Secure & Reliable', '✅ Trusted by MSEs', '⚡ Powered by AI'].map((b) => (
+          {['ðŸ”’ Secure & Reliable', 'âœ… Trusted by MSEs', 'âš¡ Powered by AI'].map((b) => (
             <span key={b}>{b}</span>
           ))}
         </div>
@@ -347,8 +347,9 @@ export default function Home() {
         </div>{/* end max-w-4xl */}
       </div>
 
-      {/* ── Right panel — narrow, sticky, supportive ── */}
+      {/* â”€â”€ Right panel â€” narrow, sticky, supportive â”€â”€ */}
       <RightPanel data={data} isLoading={isLoading} />
     </div>
   );
 }
+

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Settings as SettingsIcon, Server, Zap, Bell, Shield, Save } from 'lucide-react';
 import toast from 'react-hot-toast';
 
@@ -47,7 +47,7 @@ export default function Settings() {
     <div className="flex-1 overflow-y-auto px-6 py-6">
       <div className="max-w-2xl mx-auto">
         <h1 className="text-2xl font-bold text-white mb-1">Settings</h1>
-        <p className="text-slate-500 text-sm mb-6">Configure your BIS Antigravity AI preferences</p>
+        <p className="text-slate-500 text-sm mb-6">Configure your BIS AI preferences</p>
 
         <Section icon={Server} title="API Configuration">
           <Row label="Backend URL" desc="FastAPI server endpoint">
@@ -69,7 +69,7 @@ export default function Settings() {
           <Row label="Gemini AI Rationale" desc="Generate explanations using Google Gemini">
             <Toggle value={useLlm} onChange={() => setUseLlm((v) => !v)} />
           </Row>
-          <Row label="Antigravity Query Expansion" desc="Automatically expand queries for better retrieval">
+          <Row label="BIS AI Query Expansion" desc="Automatically expand queries for better retrieval">
             <Toggle value={antigravity} onChange={() => setAntigravity((v) => !v)} />
           </Row>
         </Section>
@@ -101,3 +101,4 @@ export default function Settings() {
     </div>
   );
 }
+

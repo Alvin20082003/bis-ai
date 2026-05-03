@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -18,7 +18,7 @@ import ComplianceChecker from './pages/ComplianceChecker';
 import Compare from './pages/Compare';
 
 const PAGE_TITLES: Record<string, string> = {
-  '/':           'Home – BIS Antigravity AI',
+  '/':           'Home â€“ BIS AI',
   '/search':     'New Search',
   '/history':    'Search History',
   '/favorites':  'Favorites',
@@ -32,7 +32,7 @@ const PAGE_TITLES: Record<string, string> = {
 
 function AnimatedRoutes() {
   const location = useLocation();
-  const title = PAGE_TITLES[location.pathname] || 'BIS Antigravity AI';
+  const title = PAGE_TITLES[location.pathname] || 'BIS AI';
 
   return (
     <div className="flex flex-col flex-1 min-h-0 overflow-hidden">
@@ -96,3 +96,4 @@ export default function App() {
     </BrowserRouter>
   );
 }
+

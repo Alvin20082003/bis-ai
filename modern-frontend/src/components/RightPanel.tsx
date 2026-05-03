@@ -9,7 +9,7 @@ interface Props { data: ApiResponse | null; isLoading: boolean; }
 
 const STEPS = [
   { num: 1, label: "User Query",      desc: "You describe your product" },
-  { num: 2, label: "Query Expansion", desc: "Antigravity AI enhances your query" },
+  { num: 2, label: "Query Expansion", desc: "BIS AI enhances your query" },
   { num: 3, label: "Vector Search",   desc: "Search across BIS standards database" },
   { num: 4, label: "AI Reasoning",    desc: "Gemini analyzes and ranks relevance" },
   { num: 5, label: "Top Standards",   desc: "Get the most relevant standards" },
@@ -42,7 +42,7 @@ export default function RightPanel({ data, isLoading }: Props) {
         {activeTab === "process" && (
           <motion.div key="process" initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }}
             className="bg-[#0d1424] border border-white/5 rounded-2xl p-4">
-            <h3 className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-3">Antigravity AI Process</h3>
+            <h3 className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-3">BIS AI Process</h3>
             {STEPS.map((step, i) => {
               const done = step.num <= activeStep;
               return (
@@ -131,3 +131,4 @@ export default function RightPanel({ data, isLoading }: Props) {
     </aside>
   );
 }
+

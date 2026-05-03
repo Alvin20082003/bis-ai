@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { motion } from 'framer-motion';
 import {
   BarChart, Bar, LineChart, Line, PieChart, Pie, Cell,
@@ -63,7 +63,7 @@ export default function Analytics() {
     { label: 'Hit Rate @3',      value: '87%',                          icon: Target,   color: 'text-green-400',  bg: 'bg-green-500/10' },
     { label: 'MRR @5',           value: '0.74',                         icon: TrendingUp, color: 'text-orange-400', bg: 'bg-orange-500/10' },
     { label: 'Standards Indexed',value: '1,248+',                       icon: Award,    color: 'text-cyan-400',   bg: 'bg-cyan-500/10' },
-    { label: 'Antigravity Boost',value: '+43%',                         icon: Zap,      color: 'text-yellow-400', bg: 'bg-yellow-500/10' },
+    { label: 'BIS AI Boost',value: '+43%',                         icon: Zap,      color: 'text-yellow-400', bg: 'bg-yellow-500/10' },
   ];
 
   return (
@@ -170,7 +170,7 @@ export default function Analytics() {
                 <p className="text-2xl font-bold text-white mb-1">{m.value}</p>
                 <p className="text-[10px] text-slate-600 mb-2">Target: {m.target}</p>
                 <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${m.pass ? 'bg-green-500/10 text-green-400 border border-green-500/20' : 'bg-red-500/10 text-red-400 border border-red-500/20'}`}>
-                  {m.pass ? '✓ PASS' : '✗ FAIL'}
+                  {m.pass ? 'âœ“ PASS' : 'âœ— FAIL'}
                 </span>
               </div>
             ))}
@@ -180,3 +180,4 @@ export default function Analytics() {
     </div>
   );
 }
+

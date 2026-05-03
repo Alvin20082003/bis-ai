@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import {
   Home, Search, History, Heart, BarChart2, BookOpen,
@@ -44,7 +44,7 @@ export default function Sidebar() {
         </div>
         {!collapsed && (
           <div className="overflow-hidden">
-            <p className="text-sm font-bold text-white leading-tight">BIS Antigravity</p>
+            <p className="text-sm font-bold text-white leading-tight">BIS AI</p>
             <p className="text-[10px] text-slate-500 leading-tight">Compliance Engine</p>
           </div>
         )}
@@ -128,3 +128,4 @@ export default function Sidebar() {
     </aside>
   );
 }
+

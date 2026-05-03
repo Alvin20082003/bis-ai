@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { HelpCircle, ChevronDown, ChevronUp, ExternalLink, MessageCircle, Book, Zap } from 'lucide-react';
 
 const FAQS = [
-  { q: 'What is BIS Antigravity AI?', a: 'It\'s an AI-powered RAG (Retrieval Augmented Generation) system that helps Indian MSEs find applicable Bureau of Indian Standards (BIS) regulations for their building material products instantly.' },
-  { q: 'How does the Antigravity Query Expansion work?', a: 'The Antigravity layer automatically enriches your product description with domain-specific technical terms, BIS keywords, and compliance vocabulary. This dramatically improves retrieval accuracy from ~15% to over 90%.' },
+  { q: 'What is BIS AI?', a: 'It\'s an AI-powered RAG (Retrieval Augmented Generation) system that helps Indian MSEs find applicable Bureau of Indian Standards (BIS) regulations for their building material products instantly.' },
+  { q: 'How does the BIS AI Query Expansion work?', a: 'The BIS AI layer automatically enriches your product description with domain-specific technical terms, BIS keywords, and compliance vocabulary. This dramatically improves retrieval accuracy from ~15% to over 90%.' },
   { q: 'What is the FAISS + BM25 hybrid retrieval?', a: 'We combine two retrieval methods: FAISS (semantic/dense retrieval using sentence embeddings) weighted at 70%, and BM25 (keyword-based sparse retrieval) weighted at 30%. The fusion gives both semantic understanding and keyword precision.' },
   { q: 'How accurate are the results?', a: 'Our system achieves Hit Rate @3 of 87% and MRR @5 of 0.74 on the public test set, both exceeding the hackathon targets of >80% and >0.70 respectively.' },
   { q: 'What building material categories are covered?', a: 'We cover Cement (OPC, PPC, PSC, RHPC, HAC), Steel (TMT bars, structural steel, prestressing strand), Concrete (RCC, prestressed, seismic design), Aggregates (coarse, fine, testing methods), and Masonry/Water standards.' },
@@ -18,14 +18,14 @@ export default function Help() {
     <div className="flex-1 overflow-y-auto px-6 py-6">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-2xl font-bold text-white mb-1">Help & Support</h1>
-        <p className="text-slate-500 text-sm mb-8">Everything you need to know about BIS Antigravity AI</p>
+        <p className="text-slate-500 text-sm mb-8">Everything you need to know about BIS AI</p>
 
         {/* Quick links */}
         <div className="grid grid-cols-3 gap-4 mb-8">
           {[
             { icon: Book,          label: 'Documentation',  desc: 'Full API reference',    color: 'text-blue-400',   bg: 'bg-blue-500/10' },
             { icon: Zap,           label: 'Quick Start',    desc: 'Get running in 5 min',  color: 'text-purple-400', bg: 'bg-purple-500/10' },
-            { icon: MessageCircle, label: 'WhatsApp Group', desc: 'BIS × SS Hackathon',    color: 'text-green-400',  bg: 'bg-green-500/10' },
+            { icon: MessageCircle, label: 'WhatsApp Group', desc: 'BIS Ã— SS Hackathon',    color: 'text-green-400',  bg: 'bg-green-500/10' },
           ].map((c) => (
             <button key={c.label} className="p-4 bg-[#0d1424] border border-white/5 rounded-2xl hover:border-white/10 transition-all text-left group">
               <div className={`w-9 h-9 rounded-xl ${c.bg} flex items-center justify-center mb-3`}>
@@ -41,8 +41,8 @@ export default function Help() {
         <div className="bg-[#0d1424] border border-white/5 rounded-2xl p-5 mb-6">
           <h3 className="text-sm font-bold text-white mb-4">System Architecture</h3>
           <div className="flex items-center gap-2 flex-wrap text-xs">
-            {['User Query', '→', 'Antigravity Expansion', '→', 'FAISS + BM25', '→', 'Gemini LLM', '→', 'Top Standards'].map((s, i) => (
-              <span key={i} className={s === '→' ? 'text-slate-600' : 'px-2 py-1 bg-blue-500/10 border border-blue-500/20 text-blue-400 rounded-lg font-medium'}>
+            {['User Query', 'â†’', 'BIS AI Expansion', 'â†’', 'FAISS + BM25', 'â†’', 'Gemini LLM', 'â†’', 'Top Standards'].map((s, i) => (
+              <span key={i} className={s === 'â†’' ? 'text-slate-600' : 'px-2 py-1 bg-blue-500/10 border border-blue-500/20 text-blue-400 rounded-lg font-medium'}>
                 {s}
               </span>
             ))}
@@ -75,9 +75,10 @@ export default function Help() {
           <HelpCircle className="w-8 h-8 text-blue-400 mx-auto mb-2" />
           <h3 className="text-sm font-bold text-white mb-1">Still need help?</h3>
           <p className="text-xs text-slate-400 mb-3">Reach out via the hackathon WhatsApp group</p>
-          <span className="text-xs font-bold text-blue-400">BIS × SS Hackathon Group</span>
+          <span className="text-xs font-bold text-blue-400">BIS Ã— SS Hackathon Group</span>
         </div>
       </div>
     </div>
   );
 }
+

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+﻿import { useEffect, useState } from 'react';
 import { User, ChevronDown, Wifi, WifiOff, ShieldCheck, GitCompare, BookOpen, Bell } from 'lucide-react';
 import { checkHealth } from '../services/api';
 import { useNavigate } from 'react-router-dom';
@@ -30,7 +30,7 @@ export default function Topbar({ title }: { title?: string }) {
     <header className="h-14 shrink-0 flex items-center justify-between px-6 border-b border-white/5 bg-[#020617]/90 backdrop-blur-xl">
       {/* Left: breadcrumb title */}
       <div className="flex items-center gap-2">
-        <span className="text-[10px] text-slate-600 font-medium">BIS Antigravity</span>
+        <span className="text-[10px] text-slate-600 font-medium">BIS AI</span>
         <span className="text-slate-700">/</span>
         <span className="text-sm font-semibold text-slate-200">{title || 'Home'}</span>
       </div>
@@ -92,7 +92,7 @@ export default function Topbar({ title }: { title?: string }) {
             <div className="absolute right-0 top-full mt-1 w-48 bg-[#0d1424] border border-white/10 rounded-xl shadow-2xl z-50 overflow-hidden">
               <div className="px-3 py-2.5 border-b border-white/5">
                 <p className="text-xs font-bold text-white">Tech_Bridgers</p>
-                <p className="text-[10px] text-slate-500">BIS Hackathon 2026 · Team</p>
+                <p className="text-[10px] text-slate-500">BIS Hackathon 2026 Â· Team</p>
               </div>
               {[
                 { label: 'Analytics', path: '/analytics' },
@@ -114,3 +114,4 @@ export default function Topbar({ title }: { title?: string }) {
     </header>
   );
 }
+
