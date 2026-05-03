@@ -34,7 +34,7 @@
 
   <!-- Right side badges -->
   <rect x="560" y="55" width="130" height="28" rx="14" fill="#3b82f620" stroke="#3b82f640" stroke-width="1"/>
-  <text x="625" y="74" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#60a5fa" text-anchor="middle">âš¡ Antigravity AI</text>
+  <text x="625" y="74" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#60a5fa" text-anchor="middle">âš¡ BIS AI</text>
 
   <rect x="700" y="55" width="150" height="28" rx="14" fill="#22c55e20" stroke="#22c55e40" stroke-width="1"/>
   <text x="775" y="74" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#4ade80" text-anchor="middle">âœ“ Hit Rate 87%</text>
@@ -54,4 +54,5 @@
   <!-- Bottom line -->
   <text x="450" y="185" font-family="Arial, sans-serif" font-size="11" fill="#334155" text-anchor="middle">Built by Team Tech_Bridgers Â· BIS Ã— Sigma Squad AI Hackathon 2026</text>
 </svg>
+
 
