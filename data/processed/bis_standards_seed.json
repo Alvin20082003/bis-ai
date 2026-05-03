@@ -1,0 +1,242 @@
+[
+  {
+    "standard_no": "IS 269:2015",
+    "title": "Ordinary Portland Cement - Specification",
+    "category": "Cement",
+    "scope": "This standard specifies requirements for Ordinary Portland Cement (OPC) grades 33, 43, and 53 used in general construction, including civil engineering structures, buildings, roads, and bridges.",
+    "keywords": ["OPC", "ordinary portland cement", "cement grade 33", "cement grade 43", "cement grade 53", "construction cement", "binding material", "clinker", "gypsum", "concrete mix"],
+    "applicable_products": ["general purpose cement", "construction cement", "OPC cement", "portland cement", "building cement"]
+  },
+  {
+    "standard_no": "IS 455:2015",
+    "title": "Portland Slag Cement - Specification",
+    "category": "Cement",
+    "scope": "Covers Portland slag cement produced by intergrinding Portland cement clinker and granulated blast furnace slag or by blending Portland cement with fine granulated blast furnace slag. Used in hydraulic structures, marine constructions and mass concrete works.",
+    "keywords": ["PSC", "portland slag cement", "blast furnace slag", "hydraulic structures", "marine construction", "mass concrete", "slag cement", "low heat cement"],
+    "applicable_products": ["portland slag cement", "PSC cement", "slag cement", "hydraulic cement", "marine cement", "dam construction cement"]
+  },
+  {
+    "standard_no": "IS 1489-1:2015",
+    "title": "Portland Pozzolana Cement - Specification Part 1: Fly Ash Based",
+    "category": "Cement",
+    "scope": "Specifies requirements for Portland Pozzolana Cement (PPC) produced by intimate mixing of Portland cement clinker with pozzolanic materials (fly ash). Used in plastering, masonry, and general construction where medium strength is sufficient.",
+    "keywords": ["PPC", "portland pozzolana cement", "fly ash cement", "pozzolana", "plastering cement", "masonry cement", "blended cement", "fly ash based"],
+    "applicable_products": ["PPC cement", "portland pozzolana cement", "fly ash cement", "blended cement", "masonry cement", "plastering cement"]
+  },
+  {
+    "standard_no": "IS 8112:2013",
+    "title": "43 Grade Ordinary Portland Cement - Specification",
+    "category": "Cement",
+    "scope": "Specifies requirements for 43 grade Ordinary Portland Cement used in general civil engineering construction where high early strength is not critical. Suitable for RCC, plastering, and masonry work.",
+    "keywords": ["43 grade OPC", "OPC 43", "cement 43 grade", "general construction", "RCC", "reinforced concrete", "plastering", "masonry"],
+    "applicable_products": ["43 grade cement", "OPC 43", "general construction cement", "RCC cement", "plastering cement"]
+  },
+  {
+    "standard_no": "IS 12269:2013",
+    "title": "53 Grade Ordinary Portland Cement - Specification",
+    "category": "Cement",
+    "scope": "Specifies requirements for 53 grade OPC, which achieves higher strength faster. Ideal for precast concrete, prestressed concrete, high-rise buildings, and rapid construction where early strength gain is essential.",
+    "keywords": ["53 grade OPC", "OPC 53", "high strength cement", "precast concrete", "prestressed concrete", "high-rise buildings", "rapid construction", "early strength"],
+    "applicable_products": ["53 grade cement", "OPC 53", "high strength cement", "precast cement", "prestressed concrete cement", "rapid hardening cement"]
+  },
+  {
+    "standard_no": "IS 2386-1:2016",
+    "title": "Methods of Test for Aggregates for Concrete Part 1: Particle Size and Shape",
+    "category": "Aggregates",
+    "scope": "Specifies methods for determining particle size distribution (sieve analysis), flakiness index, elongation index, and angularity number of coarse and fine aggregates used in concrete.",
+    "keywords": ["aggregate test", "sieve analysis", "particle size", "flakiness index", "elongation index", "coarse aggregate", "fine aggregate", "grading", "aggregate shape"],
+    "applicable_products": ["coarse aggregate", "fine aggregate", "crushed stone", "gravel", "sand", "concrete aggregate", "construction aggregate"]
+  },
+  {
+    "standard_no": "IS 383:2016",
+    "title": "Coarse and Fine Aggregate for Concrete - Specification",
+    "category": "Aggregates",
+    "scope": "Specifies requirements for coarse and fine aggregates from natural, manufactured or recycled sources used in production of concrete including all grades from M10 to M100.",
+    "keywords": ["coarse aggregate", "fine aggregate", "natural aggregate", "recycled aggregate", "manufactured aggregate", "concrete aggregate", "gravel", "sand", "crushed stone", "M-grade concrete"],
+    "applicable_products": ["coarse aggregate", "fine aggregate", "concrete aggregate", "gravel", "crushed stone aggregate", "sand for concrete", "recycled aggregate"]
+  },
+  {
+    "standard_no": "IS 516:1959",
+    "title": "Methods of Tests for Strength of Concrete",
+    "category": "Concrete",
+    "scope": "Specifies methods for testing compressive strength, flexural strength, and tensile splitting strength of concrete using cube, beam, and cylinder specimens. Applicable to all grades of concrete.",
+    "keywords": ["concrete strength", "compressive strength", "cube test", "beam test", "flexural strength", "tensile strength", "concrete testing", "cylinder test", "NDT", "concrete grade"],
+    "applicable_products": ["ready mix concrete", "site mixed concrete", "structural concrete", "precast concrete", "concrete blocks", "concrete elements"]
+  },
+  {
+    "standard_no": "IS 456:2000",
+    "title": "Plain and Reinforced Concrete - Code of Practice",
+    "category": "Concrete",
+    "scope": "Code of practice covering the design and construction of plain and reinforced concrete structures. Specifies mix design, water-cement ratio, cover requirements, curing, and durability aspects for all exposure conditions.",
+    "keywords": ["reinforced concrete", "plain concrete", "mix design", "water cement ratio", "concrete cover", "curing", "durability", "RCC structure", "concrete design", "exposure conditions", "concrete grades M15 M20 M25 M30"],
+    "applicable_products": ["reinforced concrete", "plain concrete", "RCC structure", "concrete slab", "concrete beam", "concrete column", "concrete foundation", "structural concrete"]
+  },
+  {
+    "standard_no": "IS 10262:2019",
+    "title": "Concrete Mix Proportioning - Guidelines",
+    "category": "Concrete",
+    "scope": "Provides guidelines for proportioning concrete mixes to achieve specified characteristic strength, workability, and durability. Covers all grades from M10 to M80 and both nominal and design mix approaches.",
+    "keywords": ["mix design", "concrete mix proportioning", "M10 M20 M30 M40 M50 M60 M80", "water cement ratio", "admixtures", "workability", "slump", "characteristic strength", "target strength"],
+    "applicable_products": ["concrete mix design", "ready mix concrete", "high strength concrete", "nominal mix concrete", "design mix concrete", "self compacting concrete"]
+  },
+  {
+    "standard_no": "IS 1786:2008",
+    "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification",
+    "category": "Steel",
+    "scope": "Specifies requirements for high strength deformed steel bars (TMT, CTD) and wires used as reinforcement in concrete structures. Covers grades Fe415, Fe500, Fe550, Fe600 with requirements for tensile strength, elongation, and bend test.",
+    "keywords": ["TMT bars", "deformed steel bars", "reinforcement bars", "Fe415", "Fe500", "Fe550", "Fe600", "rebar", "high strength steel", "CTD bars", "concrete reinforcement", "tensile strength", "elongation"],
+    "applicable_products": ["TMT bars", "rebar", "deformed steel bars", "reinforcement steel", "Fe415 bars", "Fe500 bars", "Fe550 bars", "construction steel bars"]
+  },
+  {
+    "standard_no": "IS 2062:2011",
+    "title": "Hot Rolled Medium and High Tensile Structural Steel - Specification",
+    "category": "Steel",
+    "scope": "Specifies requirements for hot rolled structural steel plates, sections (I-beams, channels, angles), and bars used in structural engineering applications including bridges, industrial buildings, towers, and general fabrication.",
+    "keywords": ["structural steel", "hot rolled steel", "I beam", "steel channel", "steel angle", "steel plate", "E250 E350 E410", "mild steel", "fabrication steel", "bridge steel", "industrial steel"],
+    "applicable_products": ["structural steel", "MS plate", "steel beam", "steel channel", "steel angle", "hot rolled steel", "mild steel sections", "I-section", "H-section"]
+  },
+  {
+    "standard_no": "IS 432-1:1982",
+    "title": "Mild Steel and Medium Tensile Steel Bars and Hard-Drawn Steel Wire for Concrete Reinforcement Part 1: Mild Steel and Medium Tensile Steel Bars",
+    "category": "Steel",
+    "scope": "Specifies requirements for mild steel (plain) bars and medium tensile steel bars used as reinforcement in concrete structures. Covers grades Fe250.",
+    "keywords": ["mild steel bars", "plain bars", "Fe250", "medium tensile steel", "concrete reinforcement", "plain round bars", "MS bars"],
+    "applicable_products": ["mild steel bars", "plain steel bars", "Fe250 bars", "MS reinforcement", "plain round bars"]
+  },
+  {
+    "standard_no": "IS 1161:2014",
+    "title": "Steel Tubes for Structural Purposes - Specification",
+    "category": "Steel",
+    "scope": "Specifies requirements for welded and seamless steel tubes used for structural purposes in construction, furniture, scaffolding, and mechanical engineering applications.",
+    "keywords": ["steel tubes", "structural tubes", "hollow section", "scaffolding tube", "square tube", "rectangular tube", "circular hollow section", "CHS", "RHS", "SHS"],
+    "applicable_products": ["steel tubes", "structural hollow sections", "scaffolding tubes", "square hollow section", "rectangular hollow section", "steel pipes for structure"]
+  },
+  {
+    "standard_no": "IS 5624:1993",
+    "title": "Foundation Bolts - Specification",
+    "category": "Steel",
+    "scope": "Specifies requirements for foundation bolts used in civil engineering for anchoring structural steelwork, machinery, and equipment to concrete foundations.",
+    "keywords": ["foundation bolts", "anchor bolts", "holding down bolts", "structural anchoring", "civil anchors", "concrete anchoring"],
+    "applicable_products": ["foundation bolts", "anchor bolts", "holding down bolts", "machinery anchor bolts"]
+  },
+  {
+    "standard_no": "IS 2386-3:2016",
+    "title": "Methods of Test for Aggregates for Concrete Part 3: Specific Gravity, Density, Voids, Absorption and Bulking",
+    "category": "Aggregates",
+    "scope": "Specifies methods for determining specific gravity, bulk density, void percentage, water absorption, and bulking of fine and coarse aggregates.",
+    "keywords": ["aggregate density", "specific gravity", "water absorption", "bulk density", "void percentage", "bulking of sand", "aggregate testing"],
+    "applicable_products": ["coarse aggregate", "fine aggregate", "sand", "gravel", "crushed stone", "lightweight aggregate"]
+  },
+  {
+    "standard_no": "IS 650:1991",
+    "title": "Standard Sand for Testing of Cement - Specification",
+    "category": "Cement",
+    "scope": "Specifies requirements for standard sand (Ennore sand) used in testing of cement for mortar strength tests as per IS 4031.",
+    "keywords": ["standard sand", "Ennore sand", "cement testing", "mortar test", "sand for testing", "reference sand"],
+    "applicable_products": ["standard sand", "Ennore sand", "testing sand", "reference material for cement"]
+  },
+  {
+    "standard_no": "IS 4031-6:1988",
+    "title": "Methods of Physical Tests for Hydraulic Cement Part 6: Determination of Compressive Strength of Hydraulic Cement",
+    "category": "Cement",
+    "scope": "Specifies the method for determination of compressive strength of cement mortar cubes (70.6mm) at 1, 3, 7, and 28 days. The standard method for cement quality certification.",
+    "keywords": ["cement strength test", "mortar cube", "compressive strength", "cement testing", "hydraulic cement test", "cube strength", "28 day strength"],
+    "applicable_products": ["OPC", "PPC", "PSC", "all cement types", "hydraulic cement", "cement quality testing"]
+  },
+  {
+    "standard_no": "IS 14268:1995",
+    "title": "Uncoated Stress Relieved Low Relaxation Seven Ply Strand for Prestressed Concrete - Specification",
+    "category": "Steel",
+    "scope": "Specifies requirements for uncoated stress-relieved low-relaxation 7-ply steel strands used in prestressed concrete applications including bridges, floors, and precast elements.",
+    "keywords": ["prestressed strand", "7-ply strand", "low relaxation strand", "PS strand", "prestressed concrete", "post tension", "pre tension", "bridge deck", "precast prestressed"],
+    "applicable_products": ["prestressed strand", "PS wire", "7-ply strand", "prestressed concrete strand", "post tension cables", "pretension wires"]
+  },
+  {
+    "standard_no": "IS 3025-1:2000",
+    "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water Part 1",
+    "category": "Concrete",
+    "scope": "Methods for sampling and testing water used in concrete mixing to verify suitability. Covers pH, turbidity, suspended matter, organic content, and harmful chemical limits.",
+    "keywords": ["water for concrete", "mixing water", "concrete water quality", "water testing", "pH of water", "turbidity", "impurities in water", "concrete mix water"],
+    "applicable_products": ["mixing water for concrete", "water for cement", "construction water quality", "water for mortar"]
+  },
+  {
+    "standard_no": "IS 9103:1999",
+    "title": "Concrete Admixtures - Specification",
+    "category": "Concrete",
+    "scope": "Specifies requirements for chemical admixtures used in concrete including water reducers, plasticizers, superplasticizers, retarders, accelerators, and air-entraining agents.",
+    "keywords": ["admixtures", "plasticizer", "superplasticizer", "water reducer", "retarder", "accelerator", "concrete additive", "air entraining agent", "chemical admixture", "HRWR"],
+    "applicable_products": ["concrete admixtures", "plasticizer", "superplasticizer", "water reducing admixture", "retarding admixture", "accelerating admixture", "ready mix concrete additives"]
+  },
+  {
+    "standard_no": "IS 1542:1992",
+    "title": "Sand for Plaster - Specification",
+    "category": "Aggregates",
+    "scope": "Specifies requirements for natural and manufactured sand used for plastering on walls and ceilings. Covers grading, deleterious substances, and organic impurities.",
+    "keywords": ["plaster sand", "sand for plastering", "river sand", "mason sand", "wall plaster", "ceiling plaster", "fine aggregate for plaster"],
+    "applicable_products": ["plaster sand", "masonry sand", "sand for internal plaster", "sand for external plaster", "plastering material"]
+  },
+  {
+    "standard_no": "IS 2250:1981",
+    "title": "Preparation and Use of Masonry Mortars - Code of Practice",
+    "category": "Cement",
+    "scope": "Code of practice for proportioning, mixing, and using masonry mortars for brick, block, and stone masonry construction. Covers cement-lime, cement-sand, and other mortar types.",
+    "keywords": ["masonry mortar", "cement mortar", "lime mortar", "brick masonry", "block masonry", "stone masonry", "mortar proportioning", "mortar mix", "bricklaying mortar"],
+    "applicable_products": ["masonry mortar", "brickwork mortar", "blockwork mortar", "jointing mortar", "cement-sand mortar", "lime mortar"]
+  },
+  {
+    "standard_no": "IS 1343:2012",
+    "title": "Prestressed Concrete - Code of Practice",
+    "category": "Concrete",
+    "scope": "Code of practice for the design and construction of prestressed concrete structures including pre-tensioned and post-tensioned systems. Covers analysis, design, materials, and construction requirements.",
+    "keywords": ["prestressed concrete", "pre-tensioned", "post-tensioned", "PSC design", "prestress loss", "anchorage", "tendon", "cable profile", "bridge design", "long span"],
+    "applicable_products": ["prestressed concrete", "post-tensioned slab", "prestressed beam", "precast prestressed element", "prestressed bridge girder"]
+  },
+  {
+    "standard_no": "IS 8041:1990",
+    "title": "Rapid Hardening Portland Cement - Specification",
+    "category": "Cement",
+    "scope": "Specifies requirements for rapid hardening Portland cement which achieves strength equivalent to 28-day OPC strength within 3 days. Used for urgent repairs, cold weather concreting, and rapid formwork striking.",
+    "keywords": ["rapid hardening cement", "RHPC", "early strength cement", "fast setting cement", "repair cement", "cold weather concreting", "quick strength"],
+    "applicable_products": ["rapid hardening cement", "RHPC", "fast setting cement", "repair cement", "quick set cement", "cold weather cement"]
+  },
+  {
+    "standard_no": "IS 6452:1989",
+    "title": "High Alumina Cement for Structural Use - Specification",
+    "category": "Cement",
+    "scope": "Specifies requirements for high alumina cement (HAC) used in refractory concrete, structures exposed to high temperature, chemical attack, and sea water.",
+    "keywords": ["high alumina cement", "HAC", "refractory cement", "high temperature cement", "heat resistant cement", "chemical resistant cement", "aluminous cement"],
+    "applicable_products": ["high alumina cement", "refractory cement", "heat resistant concrete cement", "HAC", "chemical resistant cement"]
+  },
+  {
+    "standard_no": "IS 2386-4:2016",
+    "title": "Methods of Test for Aggregates for Concrete Part 4: Mechanical Properties",
+    "category": "Aggregates",
+    "scope": "Specifies methods for determining aggregate crushing value (ACV), aggregate impact value (AIV), aggregate abrasion value, and ten percent fines value for coarse aggregates.",
+    "keywords": ["aggregate crushing value", "ACV", "aggregate impact value", "AIV", "abrasion value", "ten percent fines", "aggregate hardness", "mechanical properties aggregate"],
+    "applicable_products": ["coarse aggregate", "crushed stone aggregate", "road aggregate", "concrete aggregate", "pavement aggregate"]
+  },
+  {
+    "standard_no": "IS 4990:1993",
+    "title": "Plywood for Concrete Shuttering Work - Specification",
+    "category": "Building Materials",
+    "scope": "Specifies requirements for plywood used as shuttering (formwork) in concrete construction, covering dimensions, thickness tolerances, bond quality, and surface finish.",
+    "keywords": ["shuttering plywood", "formwork plywood", "concrete shuttering", "formwork", "shuttering board", "plywood for concrete"],
+    "applicable_products": ["shuttering plywood", "formwork board", "concrete shuttering", "formwork plywood panel"]
+  },
+  {
+    "standard_no": "IS 13920:2016",
+    "title": "Ductile Design and Detailing of Reinforced Concrete Structures Subjected to Seismic Forces - Code of Practice",
+    "category": "Concrete",
+    "scope": "Code of practice for ductile design and detailing of RC structures in seismic zones. Covers special confining reinforcement, lap splices, joints, shear walls, and diaphragms for earthquake resistance.",
+    "keywords": ["seismic design", "ductile detailing", "earthquake resistant", "RC structures", "confinement steel", "stirrup spacing", "lap splice seismic", "shear wall", "moment frame"],
+    "applicable_products": ["earthquake resistant structure", "seismic RC building", "ductile concrete structure", "confining reinforcement", "seismic shear wall"]
+  },
+  {
+    "standard_no": "IS 800:2007",
+    "title": "General Construction in Steel - Code of Practice",
+    "category": "Steel",
+    "scope": "Code of practice for general construction in structural steel covering design by limit state method, connections, joints, welding, bolting, fatigue, and fire resistance.",
+    "keywords": ["steel structure design", "structural steel code", "limit state design", "steel connection", "welding", "bolting", "steel fabrication", "column design", "beam design", "steel frame"],
+    "applicable_products": ["structural steel building", "steel frame structure", "steel roof truss", "industrial steel structure", "steel bridge", "steel column", "steel beam"]
+  }
+]

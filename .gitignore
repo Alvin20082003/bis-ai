@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Node
+modern-frontend/node_modules/
+modern-frontend/dist/
+
+# Data (large binary files)
+data/index/bis_faiss.index
+data/index/bis_metadata.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
