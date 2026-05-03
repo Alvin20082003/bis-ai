@@ -1,0 +1,56 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#020617"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#60a5fa"/>
+      <stop offset="50%" style="stop-color:#a78bfa"/>
+      <stop offset="100%" style="stop-color:#67e8f9"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bg)" rx="16"/>
+
+  <!-- Ambient orbs -->
+  <circle cx="100" cy="60" r="80" fill="#3b82f6" opacity="0.06"/>
+  <circle cx="800" cy="140" r="100" fill="#8b5cf6" opacity="0.06"/>
+  <circle cx="450" cy="100" r="60" fill="#06b6d4" opacity="0.04"/>
+
+  <!-- Logo box -->
+  <rect x="40" y="70" width="52" height="52" rx="14" fill="url(#title)" opacity="0.9"/>
+  <text x="66" y="103" font-family="monospace" font-size="22" font-weight="900" fill="white" text-anchor="middle">IS</text>
+
+  <!-- Main title -->
+  <text x="112" y="95" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="white">BIS Antigravity AI</text>
+  <text x="112" y="125" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="url(#title)">Compliance Engine</text>
+  <text x="112" y="148" font-family="Arial, sans-serif" font-size="12" fill="#64748b">From product idea → BIS standards in under 3 seconds</text>
+
+  <!-- Right side badges -->
+  <rect x="560" y="55" width="130" height="28" rx="14" fill="#3b82f620" stroke="#3b82f640" stroke-width="1"/>
+  <text x="625" y="74" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#60a5fa" text-anchor="middle">⚡ Antigravity AI</text>
+
+  <rect x="700" y="55" width="150" height="28" rx="14" fill="#22c55e20" stroke="#22c55e40" stroke-width="1"/>
+  <text x="775" y="74" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#4ade80" text-anchor="middle">✓ Hit Rate 87%</text>
+
+  <rect x="560" y="93" width="130" height="28" rx="14" fill="#8b5cf620" stroke="#8b5cf640" stroke-width="1"/>
+  <text x="625" y="112" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#a78bfa" text-anchor="middle">🤖 Gemini 2.5</text>
+
+  <rect x="700" y="93" width="150" height="28" rx="14" fill="#f59e0b20" stroke="#f59e0b40" stroke-width="1"/>
+  <text x="775" y="112" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle">⏱ 1.9s Latency</text>
+
+  <rect x="560" y="131" width="130" height="28" rx="14" fill="#06b6d420" stroke="#06b6d440" stroke-width="1"/>
+  <text x="625" y="150" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#22d3ee" text-anchor="middle">🔍 FAISS + BM25</text>
+
+  <rect x="700" y="131" width="150" height="28" rx="14" fill="#ef444420" stroke="#ef444440" stroke-width="1"/>
+  <text x="775" y="150" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#f87171" text-anchor="middle">🏆 Hackathon 2026</text>
+
+  <!-- Bottom line -->
+  <text x="450" y="185" font-family="Arial, sans-serif" font-size="11" fill="#334155" text-anchor="middle">Built by Team Tech_Bridgers · BIS × Sigma Squad AI Hackathon 2026</text>
+</svg>

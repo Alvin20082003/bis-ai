@@ -1,0 +1,112 @@
+<svg width="900" height="380" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#020617"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="380" fill="url(#bgf)" rx="16"/>
+
+  <!-- Title -->
+  <text x="450" y="38" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="white" text-anchor="middle">🌟 Key Features</text>
+  <text x="450" y="58" font-family="Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">Everything an MSE needs for BIS compliance</text>
+
+  <!-- Feature 1: Smart Search -->
+  <rect x="30" y="75" width="195" height="130" rx="12" fill="#0d1424" stroke="#3b82f620" stroke-width="1.5"/>
+  <rect x="30" y="75" width="195" height="3" rx="2" fill="#3b82f6"/>
+  <text x="52" y="105" font-family="Arial, sans-serif" font-size="22">🔍</text>
+  <text x="85" y="102" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="white">Smart Search</text>
+  <text x="85" y="118" font-family="Arial, sans-serif" font-size="10" fill="#60a5fa">Hybrid RAG</text>
+  <text x="45" y="140" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Type any product description.</text>
+  <text x="45" y="155" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Get top BIS standards with</text>
+  <text x="45" y="170" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">relevance scores instantly.</text>
+  <rect x="45" y="185" width="80" height="14" rx="7" fill="#3b82f615"/>
+  <text x="85" y="196" font-family="Arial, sans-serif" font-size="9" fill="#60a5fa" text-anchor="middle">FAISS + BM25</text>
+
+  <!-- Feature 2: AI Rationale -->
+  <rect x="240" y="75" width="195" height="130" rx="12" fill="#0d1424" stroke="#8b5cf620" stroke-width="1.5"/>
+  <rect x="240" y="75" width="195" height="3" rx="2" fill="#8b5cf6"/>
+  <text x="262" y="105" font-family="Arial, sans-serif" font-size="22">🤖</text>
+  <text x="295" y="102" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="white">AI Rationale</text>
+  <text x="295" y="118" font-family="Arial, sans-serif" font-size="10" fill="#a78bfa">Gemini 2.5 Flash</text>
+  <text x="255" y="140" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Explains WHY each standard</text>
+  <text x="255" y="155" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">applies to YOUR specific</text>
+  <text x="255" y="170" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">product. Not generic advice.</text>
+  <rect x="255" y="185" width="90" height="14" rx="7" fill="#8b5cf615"/>
+  <text x="300" y="196" font-family="Arial, sans-serif" font-size="9" fill="#a78bfa" text-anchor="middle">Product-specific</text>
+
+  <!-- Feature 3: Gap Analysis -->
+  <rect x="450" y="75" width="195" height="130" rx="12" fill="#0d1424" stroke="#22c55e20" stroke-width="1.5"/>
+  <rect x="450" y="75" width="195" height="3" rx="2" fill="#22c55e"/>
+  <text x="472" y="105" font-family="Arial, sans-serif" font-size="22">🔬</text>
+  <text x="505" y="102" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="white">Gap Analysis</text>
+  <text x="505" y="118" font-family="Arial, sans-serif" font-size="10" fill="#4ade80">Risk Assessment</text>
+  <text x="465" y="140" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">See what's covered ✔ and</text>
+  <text x="465" y="155" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">what's missing ✘. Risk level:</text>
+  <text x="465" y="170" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">LOW / MEDIUM / HIGH.</text>
+  <rect x="465" y="185" width="90" height="14" rx="7" fill="#22c55e15"/>
+  <text x="510" y="196" font-family="Arial, sans-serif" font-size="9" fill="#4ade80" text-anchor="middle">Advanced Mode</text>
+
+  <!-- Feature 4: Checklist -->
+  <rect x="660" y="75" width="210" height="130" rx="12" fill="#0d1424" stroke="#f59e0b20" stroke-width="1.5"/>
+  <rect x="660" y="75" width="210" height="3" rx="2" fill="#f59e0b"/>
+  <text x="682" y="105" font-family="Arial, sans-serif" font-size="22">✅</text>
+  <text x="715" y="102" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="white">Smart Checklist</text>
+  <text x="715" y="118" font-family="Arial, sans-serif" font-size="10" fill="#fbbf24">Per Standard</text>
+  <text x="675" y="140" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Actionable steps for each</text>
+  <text x="675" y="155" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">standard. Interactive boxes.</text>
+  <text x="675" y="170" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Track your progress.</text>
+  <rect x="675" y="185" width="90" height="14" rx="7" fill="#f59e0b15"/>
+  <text x="720" y="196" font-family="Arial, sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle">Interactive</text>
+
+  <!-- Row 2 -->
+
+  <!-- Feature 5: What-If -->
+  <rect x="30" y="225" width="195" height="130" rx="12" fill="#0d1424" stroke="#06b6d420" stroke-width="1.5"/>
+  <rect x="30" y="225" width="195" height="3" rx="2" fill="#06b6d4"/>
+  <text x="52" y="255" font-family="Arial, sans-serif" font-size="22">🎛️</text>
+  <text x="85" y="252" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="white">What-If Simulator</text>
+  <text x="85" y="268" font-family="Arial, sans-serif" font-size="10" fill="#22d3ee">Dynamic Context</text>
+  <text x="45" y="290" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Change location (coastal /</text>
+  <text x="45" y="305" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">seismic / urban) and industry</text>
+  <text x="45" y="320" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">to update recommendations.</text>
+  <rect x="45" y="335" width="90" height="14" rx="7" fill="#06b6d415"/>
+  <text x="90" y="346" font-family="Arial, sans-serif" font-size="9" fill="#22d3ee" text-anchor="middle">3 Industries · 4 Locations</text>
+
+  <!-- Feature 6: Report -->
+  <rect x="240" y="225" width="195" height="130" rx="12" fill="#0d1424" stroke="#ec489920" stroke-width="1.5"/>
+  <rect x="240" y="225" width="195" height="3" rx="2" fill="#ec4899"/>
+  <text x="262" y="255" font-family="Arial, sans-serif" font-size="22">📄</text>
+  <text x="295" y="252" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="white">Download Report</text>
+  <text x="295" y="268" font-family="Arial, sans-serif" font-size="10" fill="#f472b6">One Click</text>
+  <text x="255" y="290" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Full compliance report with</text>
+  <text x="255" y="305" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">standards, gap analysis,</text>
+  <text x="255" y="320" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">checklists and risk summary.</text>
+  <rect x="255" y="335" width="90" height="14" rx="7" fill="#ec489915"/>
+  <text x="300" y="346" font-family="Arial, sans-serif" font-size="9" fill="#f472b6" text-anchor="middle">Instant Download</text>
+
+  <!-- Feature 7: Library -->
+  <rect x="450" y="225" width="195" height="130" rx="12" fill="#0d1424" stroke="#a78bfa20" stroke-width="1.5"/>
+  <rect x="450" y="225" width="195" height="3" rx="2" fill="#a78bfa"/>
+  <text x="472" y="255" font-family="Arial, sans-serif" font-size="22">📚</text>
+  <text x="505" y="252" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="white">Standards Library</text>
+  <text x="505" y="268" font-family="Arial, sans-serif" font-size="10" fill="#c4b5fd">30+ Standards</text>
+  <text x="465" y="290" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Browse all indexed BIS</text>
+  <text x="465" y="305" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">standards. Full scope, testing</text>
+  <text x="465" y="320" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">methods, related standards.</text>
+  <rect x="465" y="335" width="90" height="14" rx="7" fill="#a78bfa15"/>
+  <text x="510" y="346" font-family="Arial, sans-serif" font-size="9" fill="#c4b5fd" text-anchor="middle">Searchable + Filterable</text>
+
+  <!-- Feature 8: Compare -->
+  <rect x="660" y="225" width="210" height="130" rx="12" fill="#0d1424" stroke="#34d39920" stroke-width="1.5"/>
+  <rect x="660" y="225" width="210" height="3" rx="2" fill="#34d399"/>
+  <text x="682" y="255" font-family="Arial, sans-serif" font-size="22">⚖️</text>
+  <text x="715" y="252" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="white">Compare Standards</text>
+  <text x="715" y="268" font-family="Arial, sans-serif" font-size="10" fill="#6ee7b7">Side by Side</text>
+  <text x="675" y="290" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Compare up to 4 standards</text>
+  <text x="675" y="305" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">side by side. Strength, scope,</text>
+  <text x="675" y="320" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">testing, applicability.</text>
+  <rect x="675" y="335" width="90" height="14" rx="7" fill="#34d39915"/>
+  <text x="720" y="346" font-family="Arial, sans-serif" font-size="9" fill="#6ee7b7" text-anchor="middle">Up to 4 Standards</text>
+</svg>

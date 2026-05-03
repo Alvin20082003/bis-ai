@@ -25,17 +25,7 @@
 
 <div align="center">
 
-### 🏠 Home Dashboard — Search & Results
-![Home Dashboard](https://raw.githubusercontent.com/Alvin20082003/bis-antigravity-ai/main/docs/screenshots/home.png)
-*AI-powered search with real-time BIS standard recommendations, relevance scores, and Gemini rationale*
-
-### 🔬 Advanced Mode — Gap Analysis & Compliance Checklist
-![Advanced Mode](https://raw.githubusercontent.com/Alvin20082003/bis-antigravity-ai/main/docs/screenshots/advanced.png)
-*Gap analysis shows what's covered vs missing · Smart checklist with interactive checkboxes per standard*
-
-### 📚 Standards Library — Full Detail Panel
-![Standards Library](https://raw.githubusercontent.com/Alvin20082003/bis-antigravity-ai/main/docs/screenshots/library.png)
-*Browse all 30+ indexed BIS standards with scope, requirements, testing methods, and related standards*
+![Hero Banner](docs/screenshots/hero-banner.svg)
 
 </div>
 
@@ -59,48 +49,11 @@ Indian **Micro and Small Enterprises (MSEs)** spend **weeks** figuring out which
 
 ## ⚡ How It Works — The Antigravity Pipeline
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    ANTIGRAVITY AI PIPELINE                       │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                   │
-│  User types:  "OPC 53 cement for high rise building"             │
-│                          │                                        │
-│                          ▼                                        │
-│  ┌─────────────────────────────────────────┐                     │
-│  │  1. ANTIGRAVITY QUERY EXPANSION         │                     │
-│  │  Adds: "ordinary portland cement        │                     │
-│  │  IS 269 IS 12269 compressive strength   │                     │
-│  │  fineness soundness BIS compliance..."  │                     │
-│  └─────────────────────────────────────────┘                     │
-│                          │                                        │
-│              ┌───────────┴───────────┐                           │
-│              ▼                       ▼                           │
-│  ┌─────────────────┐     ┌─────────────────┐                    │
-│  │  FAISS SEARCH   │     │   BM25 SEARCH   │                    │
-│  │  (Semantic 70%) │     │  (Keyword 30%)  │                    │
-│  └────────┬────────┘     └────────┬────────┘                    │
-│           └───────────┬───────────┘                              │
-│                       ▼                                           │
-│  ┌─────────────────────────────────────────┐                     │
-│  │  3. HYBRID FUSION SCORING               │                     │
-│  │  Combined score = 0.7×dense + 0.3×bm25 │                     │
-│  └─────────────────────────────────────────┘                     │
-│                       │                                           │
-│                       ▼                                           │
-│  ┌─────────────────────────────────────────┐                     │
-│  │  4. GEMINI 2.5 FLASH RATIONALE          │                     │
-│  │  "IS 12269:2013 is applicable because   │                     │
-│  │  it specifically covers 53 grade OPC,   │                     │
-│  │  ideal for high-rise buildings due to   │                     │
-│  │  higher early strength gain..."         │                     │
-│  └─────────────────────────────────────────┘                     │
-│                       │                                           │
-│                       ▼                                           │
-│  Result: IS 12269:2013 [100%] + IS 269:2015 [90%] + more        │
-│                                                                   │
-└─────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+
+![Pipeline Diagram](docs/screenshots/pipeline-diagram.svg)
+
+</div>
 
 ---
 
@@ -253,6 +206,12 @@ python eval_script.py --results team_results.json --ground_truth ground_truth.js
 
 ## 🌟 Features
 
+<div align="center">
+
+![Features Grid](docs/screenshots/features-grid.svg)
+
+</div>
+
 ### Core Features
 | Feature | Description |
 |---------|-------------|
@@ -306,6 +265,12 @@ python eval_script.py --results team_results.json --ground_truth ground_truth.js
 ---
 
 ## 💼 Business Opportunity
+
+<div align="center">
+
+![Business Model](docs/screenshots/business-model.svg)
+
+</div>
 
 ### The Market Problem
 
